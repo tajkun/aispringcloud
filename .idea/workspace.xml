@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="28db2044-d14f-41ab-a768-1e5582d9ccea" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aispringcloud.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/configclient.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/consumer.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/java/com/southwind/ConsumerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/java/com/southwind/controller/ConsumerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/java/com/southwind/entity/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/com/southwind/ConsumerApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/com/southwind/controller/ConsumerHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/com/southwind/entity/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaclient/eurekaclient.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaclient/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaclient/src/main/java/com/southwind/ProviderApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaclient/src/main/java/com/southwind/ProviderApplication2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaclient/src/main/java/com/southwind/controller/StudentHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaclient/src/main/java/com/southwind/entity/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaclient/src/main/java/com/southwind/repository/StudentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaclient/src/main/java/com/southwind/repository/impl/StudentRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaclient/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaclient/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaclient/target/classes/com/southwind/ProviderApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaclient/target/classes/com/southwind/ProviderApplication2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaclient/target/classes/com/southwind/controller/StudentHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaclient/target/classes/com/southwind/entity/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaclient/target/classes/com/southwind/repository/StudentRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaclient/target/classes/com/southwind/repository/impl/StudentRepositoryImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaserver/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaserver/src/main/java/com/southwind/EurekaServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaserver/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaserver/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaserver/target/classes/com/southwind/EurekaServerApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feign/feign.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feign/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feign/src/main/java/com/southwind/FeignApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feign/src/main/java/com/southwind/controller/FeignHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feign/src/main/java/com/southwind/entity/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feign/src/main/java/com/southwind/feign/FeignProviderClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feign/src/main/java/com/southwind/feign/impl/FeignError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feign/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feign/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feign/target/classes/com/southwind/FeignApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feign/target/classes/com/southwind/controller/FeignHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feign/target/classes/com/southwind/entity/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feign/target/classes/com/southwind/feign/FeignProviderClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feign/target/classes/com/southwind/feign/impl/FeignError.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hystrix/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hystrix/src/main/java/com/southwind/HystrixApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hystrix/src/main/java/com/southwind/controller/HystrixHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hystrix/src/main/java/com/southwind/entity/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hystrix/src/main/java/com/southwind/feign/FeignProviderClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hystrix/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hystrix/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hystrix/target/classes/com/southwind/HystrixApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hystrix/target/classes/com/southwind/controller/HystrixHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hystrix/target/classes/com/southwind/entity/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hystrix/target/classes/com/southwind/feign/FeignProviderClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nativeconfigclient/nativeconfigclient.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nativeconfigclient/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nativeconfigclient/src/main/java/com/southwind/NativeConfigClientApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nativeconfigclient/src/main/java/com/southwind/controller/NativeConfigHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nativeconfigclient/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nativeconfigclient/target/classes/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nativeconfigclient/target/classes/com/southwind/NativeConfigClientApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nativeconfigclient/target/classes/com/southwind/controller/NativeConfigHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nativeconfigserver/nativeconfigserver.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nativeconfigserver/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nativeconfigserver/src/main/java/com/southwind/NativeConfigServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nativeconfigserver/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nativeconfigserver/src/main/resources/shared/configclient-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nativeconfigserver/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nativeconfigserver/target/classes/com/southwind/NativeConfigServerApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nativeconfigserver/target/classes/shared/configclient-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resttemplate/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resttemplate/resttemplate.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resttemplate/src/main/java/com/southwind/RestTemplateApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resttemplate/src/main/java/com/southwind/controller/RestHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resttemplate/src/main/java/com/southwind/entity/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resttemplate/target/classes/com/southwind/RestTemplateApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resttemplate/target/classes/com/southwind/controller/RestHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resttemplate/target/classes/com/southwind/entity/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ribbon/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ribbon/src/main/java/com/southwind/RibbonApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ribbon/src/main/java/com/southwind/controller/RibbonHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ribbon/src/main/java/com/southwind/entity/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ribbon/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ribbon/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ribbon/target/classes/com/southwind/RibbonApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ribbon/target/classes/com/southwind/controller/RibbonHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ribbon/target/classes/com/southwind/entity/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zuul/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zuul/src/main/java/com/southwind/ZuulApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zuul/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zuul/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zuul/target/classes/com/southwind/ZuulApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zuul/zuul.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\software\maven\repository" />
+        <option name="mavenHome" value="D:/software/maven/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\software\maven\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Y4Xo0arilaE5OsCkX1h9HXrnDK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.southwind.feign" />
+      <recent name="com.southwind.entity" />
+      <recent name="com.southwind" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.NativeConfigClientApplication">
+    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="eurekaserver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.southwind.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.southwind.EurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HystrixApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="hystrix" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.southwind.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.southwind.HystrixApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NativeConfigClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="nativeconfigclient" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.southwind.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.southwind.NativeConfigClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NativeConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="nativeconfigserver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.southwind.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.southwind.NativeConfigServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="eurekaclient" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.southwind.entity.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.southwind.ProviderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.NativeConfigClientApplication" />
+        <item itemvalue="Spring Boot.NativeConfigServerApplication" />
+        <item itemvalue="Spring Boot.EurekaServerApplication" />
+        <item itemvalue="Spring Boot.HystrixApplication" />
+        <item itemvalue="Spring Boot.ProviderApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="254" y="16" key="#Custom_Plugin_Repositories" timestamp="1582262025822">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="254" y="16" key="#Custom_Plugin_Repositories/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1582262025822" />
+    <state x="254" y="16" key="#HTTP_Proxy" timestamp="1582262967938">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="254" y="16" key="#HTTP_Proxy/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1582262967938" />
+    <state x="275" y="23" key="#Project_Structure" timestamp="1582281781780">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="23" key="#Project_Structure/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1582281781780" />
+    <state x="488" y="74" key="#com.intellij.ide.util.MemberChooser" timestamp="1582291770760">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="74" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1582291770760" />
+    <state x="513" y="75" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1582268607757">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="513" y="75" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1582268607757" />
+    <state x="240" y="0" key="CommitChangelistDialog2" timestamp="1582361334019">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="240" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1582361334019" />
+    <state x="442" y="99" key="FileChooserDialogImpl" timestamp="1582361109513">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="442" y="99" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1582361109513" />
+    <state width="1323" height="125" key="GridCell.Tab.0.bottom" timestamp="1582359451840">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="125" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1582359451840" />
+    <state width="1323" height="125" key="GridCell.Tab.0.center" timestamp="1582359451839">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="125" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1582359451839" />
+    <state width="1323" height="125" key="GridCell.Tab.0.left" timestamp="1582359451839">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="125" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1582359451839" />
+    <state width="1323" height="125" key="GridCell.Tab.0.right" timestamp="1582359451840">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="125" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1582359451840" />
+    <state width="1323" height="125" key="GridCell.Tab.1.bottom" timestamp="1582359451840">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="125" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1582359451840" />
+    <state width="1323" height="125" key="GridCell.Tab.1.center" timestamp="1582359451840">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="125" key="GridCell.Tab.1.center/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1582359451840" />
+    <state width="1323" height="125" key="GridCell.Tab.1.left" timestamp="1582359451840">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="125" key="GridCell.Tab.1.left/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1582359451840" />
+    <state width="1323" height="125" key="GridCell.Tab.1.right" timestamp="1582359451840">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="125" key="GridCell.Tab.1.right/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1582359451840" />
+    <state x="163" y="0" key="SettingsEditor" timestamp="1582360963197">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1582360963197" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1582289609590">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1582289609590" />
+    <state x="57" y="59" key="new project wizard" timestamp="1582357189806">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="57" y="59" key="new project wizard/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1582357189806" />
+  </component>
+</project>
